@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed169a9bcaad8cc429f3ef6a1f1658b9, type: 3}
+  m_Name: CarSuperSport
+  m_EditorClassIdentifier: 
+  _speed: 0
+  _speedTarget: 0
+  _rotate: 0
+  _rotateTarget: 0
+  acceleration: 35
+  accelerationMultiplier: 13
+  brakeForce: 30
+  steering: 70
+  jumpForce: 60
+  gravity: 20
+  drift: 0.9
+  HP: 13
+  price: 60000
+  model:
+  - {fileID: 4300000, guid: 5f05a50926f7a29408001ea949862cb5, type: 3}
+  - {fileID: 4300000, guid: 0a27e9c6015609e44a866e370f9ba462, type: 3}
+  - {fileID: 4300000, guid: 33b1c8f040c7d054c99b8f395fbb07cd, type: 3}
+  - {fileID: 4300000, guid: e3a31a0cffeea5e43bee9af72920bf9a, type: 3}
+  - {fileID: 4300000, guid: 2fc4b1b74f84d1d4a9768f6de69a8973, type: 3}
+  - {fileID: 4300000, guid: 8345881c567c0f341a765920f0426b4e, type: 3}
+  - {fileID: 4300000, guid: 69d745fc9d2389145b5c51cc19088e2e, type: 3}
+  - {fileID: 4300000, guid: 501a82e90c7ed204bb7df5516d1008e8, type: 3}

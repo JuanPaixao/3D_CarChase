@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed169a9bcaad8cc429f3ef6a1f1658b9, type: 3}
+  m_Name: CarTruck
+  m_EditorClassIdentifier: 
+  _speed: 0
+  _speedTarget: 0
+  _rotate: 0
+  _rotateTarget: 0
+  acceleration: 26
+  accelerationMultiplier: 4
+  brakeForce: 30
+  steering: 40
+  jumpForce: 60
+  gravity: 20
+  drift: 0.9
+  HP: 20
+  price: 22000
+  model:
+  - {fileID: 4300000, guid: f3bbd19540d78f44185e1d19d8959eeb, type: 3}
+  - {fileID: 4300000, guid: 4a26200bcd5e73c4ba1b8aef3eab2b31, type: 3}
+  - {fileID: 4300000, guid: 4cfab318619fe3b4d81c8dbd0b284858, type: 3}
+  - {fileID: 4300000, guid: 6aa313e9521cf2d4490d33e4579f0c48, type: 3}
+  - {fileID: 4300000, guid: 88e2e576dcf168a4f943ee31601a39f4, type: 3}
+  - {fileID: 4300000, guid: f449e0fabbb64ac468b630719722da00, type: 3}
+  - {fileID: 4300000, guid: e49bc34676db54846a5e3f6418e5438e, type: 3}
+  - {fileID: 4300000, guid: 4c4c657fcd55e984f9a6563eb09461bc, type: 3}

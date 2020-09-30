@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed169a9bcaad8cc429f3ef6a1f1658b9, type: 3}
+  m_Name: CarMuscle
+  m_EditorClassIdentifier: 
+  _speed: 0
+  _speedTarget: 0
+  _rotate: 0
+  _rotateTarget: 0
+  acceleration: 26
+  accelerationMultiplier: 10
+  brakeForce: 30
+  steering: 60
+  jumpForce: 60
+  gravity: 20
+  drift: 1
+  HP: 8
+  price: 5000
+  model:
+  - {fileID: 4300000, guid: e5a41e457f0820545a538179251efb94, type: 3}
+  - {fileID: 4300000, guid: 4922136360ac98b43a54ac98eb3e2d2d, type: 3}
+  - {fileID: 4300000, guid: bb9d7fd2617455b4faea4146603c5b49, type: 3}
+  - {fileID: 4300000, guid: c83af30e25cef754a950ba84bce2e4fc, type: 3}
+  - {fileID: 4300000, guid: b84b933d8fe6c9b4f83183a7a8570667, type: 3}
+  - {fileID: 4300000, guid: b19e65d7f82214c4ea031e0b4e0f9ec8, type: 3}
+  - {fileID: 4300000, guid: 56190d7d83db0044c8454849c113816a, type: 3}
+  - {fileID: 4300000, guid: 66b8edce1fbd4d74ab3482deb680d1ac, type: 3}

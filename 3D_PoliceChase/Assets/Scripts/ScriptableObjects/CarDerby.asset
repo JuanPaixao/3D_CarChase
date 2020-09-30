@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed169a9bcaad8cc429f3ef6a1f1658b9, type: 3}
+  m_Name: CarDerby
+  m_EditorClassIdentifier: 
+  _speed: 0
+  _speedTarget: 0
+  _rotate: 0
+  _rotateTarget: 0
+  acceleration: 23
+  accelerationMultiplier: 8
+  brakeForce: 30
+  steering: 60
+  jumpForce: 60
+  gravity: 20
+  drift: 0.8
+  HP: 5
+  price: 0
+  model:
+  - {fileID: 4300000, guid: c82e8b393710d904280ac4aa07d40cd4, type: 3}
+  - {fileID: 4300000, guid: 5ddd8569ead41b34bb56933a2b2816fd, type: 3}
+  - {fileID: 4300000, guid: f839a9081a6846649a5c0b597c0a3084, type: 3}
+  - {fileID: 4300000, guid: 180c79d42dbb2ec44818ce20746bd537, type: 3}
+  - {fileID: 4300000, guid: 85ddf791a2a211542afec341b5bb8ddf, type: 3}
+  - {fileID: 4300000, guid: 01f6cc3143c1e9a43a0ddb8636da8e61, type: 3}
+  - {fileID: 4300000, guid: 3f273c5c94a01004cb8310caa348c6e3, type: 3}
+  - {fileID: 4300000, guid: be1f5d0e473986f47878784a88679b53, type: 3}

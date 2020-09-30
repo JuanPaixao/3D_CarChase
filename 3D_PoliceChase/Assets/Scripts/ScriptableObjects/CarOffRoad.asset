@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed169a9bcaad8cc429f3ef6a1f1658b9, type: 3}
+  m_Name: CarOffRoad
+  m_EditorClassIdentifier: 
+  _speed: 0
+  _speedTarget: 0
+  _rotate: 0
+  _rotateTarget: 0
+  acceleration: 28
+  accelerationMultiplier: 8
+  brakeForce: 30
+  steering: 50
+  jumpForce: 60
+  gravity: 20
+  drift: 0.9
+  HP: 13
+  price: 20000
+  model:
+  - {fileID: 4300000, guid: 245457f0a62606e49bd5e018697aba7e, type: 3}
+  - {fileID: 4300000, guid: f1cb5ee2b74fb61489520a3a1c8bdaf7, type: 3}
+  - {fileID: 4300000, guid: 06511b760acd25d459b5e6ce5d0b4b1b, type: 3}
+  - {fileID: 4300000, guid: 926788898458ca9478ad306bb96f7c48, type: 3}
+  - {fileID: 4300000, guid: 0f8eb88a0fed5d94db6a3ccaf54661e9, type: 3}
+  - {fileID: 4300000, guid: cc569fe4bbb4a2943bf776e32034b31d, type: 3}
+  - {fileID: 4300000, guid: d4513fb54f86edc448e70a737ac365b8, type: 3}
+  - {fileID: 4300000, guid: a05cc12f220d1334eba0293601d695f8, type: 3}

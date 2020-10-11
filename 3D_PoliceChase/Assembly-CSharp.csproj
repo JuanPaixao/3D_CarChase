@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{176cbe38-4c50-522d-cd00-7a7c57b0db64}</ProjectGuid>
+    <ProjectGuid>{974483d9-3a5a-737d-463c-28474741438c}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -36,79 +36,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
-     <Compile Include="Assets\Scripts\PlayerEvents.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
-     <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
-     <Compile Include="Assets\Scripts\CopAIExplosionTrigger.cs" />
-     <Compile Include="Assets\Scripts\CarUnlockSystem.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
-     <Compile Include="Assets\Scripts\UIManager.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
-     <Compile Include="Assets\Scripts\Explosion.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
-     <Compile Include="Assets\Scripts\CarPlatform.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
-     <Compile Include="Assets\Scripts\CarSelected.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
-     <Compile Include="Assets\Scripts\DontDestroyOnLoad.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
-     <Compile Include="Assets\Scripts\CopAI.cs" />
-     <Compile Include="Assets\Scripts\CarDamageSystem.cs" />
-     <Compile Include="Assets\Scripts\CarControl.cs" />
-     <Compile Include="Assets\Scripts\CarInfoManager.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
-     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
-     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
-     <Compile Include="Assets\Scripts\Sky.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
-     <Compile Include="Assets\Scripts\CopPool.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
-     <Compile Include="Assets\Scripts\ScriptableObjects\Car.cs" />
-     <Compile Include="Assets\Scripts\MoneyBag.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
-     <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
-     <Compile Include="Assets\Scripts\Cashbags.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
-     <Compile Include="Assets\Scripts\PlayerCamera.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
-     <Compile Include="Assets\Scripts\LastPosition.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
-     <Compile Include="Assets\Scripts\NavmeshAgent.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
-     <Compile Include="Assets\Scripts\Repair.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
-     <Compile Include="Assets\Scripts\CopGenerator.cs" />
-     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
-     <Compile Include="Assets\RippleEffect\RipplePostProcessor.cs" />
-     <Compile Include="Assets\Scripts\GameManager.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
      <Compile Include="Assets\Doozy\Engine\Themes\Targets\ColorTargetSpriteRenderer.cs" />
      <Compile Include="Assets\Doozy\Engine\Utils\ColorModels\CMYK.cs" />
+     <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
      <Compile Include="Assets\Doozy\Engine\Themes\Structs\FontId.cs" />
      <Compile Include="Assets\Doozy\Engine\Nody\Models\Node.cs" />
      <Compile Include="Assets\Doozy\Engine\Themes\Structs\ColorId.cs" />
@@ -117,6 +47,7 @@
      <Compile Include="Assets\Doozy\Engine\UI\UIButton\UIButtonLoopAnimation.cs" />
      <Compile Include="Assets\Doozy\Engine\Events\SpriteEvent.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIView\UIViewBehavior.cs" />
+     <Compile Include="Assets\Scripts\PlayerEvents.cs" />
      <Compile Include="Assets\Doozy\Examples\Scripts\UIButtonAutomatedTextValue.cs" />
      <Compile Include="Assets\Doozy\Examples\Scripts\ExampleProgressTargetAudioMixer.cs" />
      <Compile Include="Assets\Doozy\Integrations\Playmaker\Scripts\PlaymakerEventDispatcher.cs" />
@@ -140,10 +71,12 @@
      <Compile Include="Assets\Doozy\Engine\Orientation\Enums\DetectedOrientation.cs" />
      <Compile Include="Assets\Doozy\Engine\Extensions\RectExtensions.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIView\UIViewEvent.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
      <Compile Include="Assets\Doozy\Engine\Progress\Progressor.cs" />
      <Compile Include="Assets\Doozy\Engine\Utils\DoozyUtils.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIView\UIView.cs" />
      <Compile Include="Assets\Doozy\Engine\Themes\ThemeManager.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
      <Compile Include="Assets\Doozy\Engine\Scripts\GameEventListener.cs" />
      <Compile Include="Assets\Doozy\Integrations\Playmaker\Actions\DoozyUI\UnloadScene.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIDrawer\UIDrawerSettings.cs" />
@@ -160,6 +93,7 @@
      <Compile Include="Assets\Doozy\Engine\UI\UIDrawer\UIDrawerMessage.cs" />
      <Compile Include="Assets\Doozy\Engine\Themes\ThemeVariantData.cs" />
      <Compile Include="Assets\Doozy\Engine\Nody\Nodes\SubGraphNode.cs" />
+     <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
      <Compile Include="Assets\Doozy\Engine\Utils\AssetUtils.cs" />
      <Compile Include="Assets\Doozy\Engine\Soundy\SoundyPooler.cs" />
      <Compile Include="Assets\Doozy\Engine\Touchy\TouchDetector.cs" />
@@ -177,25 +111,35 @@
      <Compile Include="Assets\Doozy\Engine\UI\UIPopup\UIPopupSettings.cs" />
      <Compile Include="Assets\Doozy\Integrations\Playmaker\Actions\DoozyUI\LoadScene.cs" />
      <Compile Include="Assets\Doozy\Engine\Enums\SetupMode.cs" />
+     <Compile Include="Assets\Scripts\CopAIExplosionTrigger.cs" />
      <Compile Include="Assets\Doozy\Engine\Utils\DataUtils.cs" />
      <Compile Include="Assets\Doozy\Engine\Soundy\SoundyManager.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIToggle\UIToggle.cs" />
      <Compile Include="Assets\Doozy\Engine\Touchy\Enums\GestureType.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Animation\Enums\ButtonAnimationType.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Nodes\BackButtonNode.cs" />
+     <Compile Include="Assets\Scripts\CarUnlockSystem.cs" />
      <Compile Include="Assets\Doozy\Engine\Orientation\OrientationEvent.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
      <Compile Include="Assets\Doozy\Engine\Touchy\TouchInfoEvent.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIToggle\UIToggleBehavior.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Base\UIAction.cs" />
      <Compile Include="Assets\Doozy\Integrations\Playmaker\Actions\DoozyUI\SendGameEvent.cs" />
+     <Compile Include="Assets\Scripts\UIManager.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIDrawer\UIDrawerEvent.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Base\NamesDatabase.cs" />
      <Compile Include="Assets\Doozy\Integrations\Playmaker\Actions\Soundy\StopAllSounds.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIToggle\UIToggleEvent.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
      <Compile Include="Assets\Doozy\Engine\Nody\Models\Enums\ConnectionMode.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+     <Compile Include="Assets\Scripts\Explosion.cs" />
      <Compile Include="Assets\Doozy\Engine\Scripts\Coroutiner.cs" />
      <Compile Include="Assets\Doozy\Engine\Utils\UnityResources.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIPopup\UIPopupDatabase.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\Doozy\Engine\Extensions\RectTransformExtensions.cs" />
      <Compile Include="Assets\Doozy\Engine\Layouts\LayoutController.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Nodes\WaitNode.cs" />
@@ -207,7 +151,9 @@
      <Compile Include="Assets\Doozy\Engine\Events\TextureEvent.cs" />
      <Compile Include="Assets\Doozy\Engine\Progress\ProgressTargets\ProgressTargetAudioMixer.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIDrawer\UIDrawerBehavior.cs" />
+     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
      <Compile Include="Assets\Doozy\Engine\Progress\Enums\TargetVariable.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
      <Compile Include="Assets\Doozy\Integrations\Playmaker\Actions\Soundy\UnmuteAllSounds.cs" />
      <Compile Include="Assets\Doozy\Engine\Utils\DoozyPath.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIView\UIViewMessage.cs" />
@@ -216,18 +162,22 @@
      <Compile Include="Assets\Doozy\Engine\Scripts\MColor.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Animation\UIAnimationData.cs" />
      <Compile Include="Assets\Doozy\Engine\Utils\ScriptUtils.cs" />
+     <Compile Include="Assets\Scripts\CarPlatform.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Nodes\ApplicationQuitNode.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIDrawer\UIDrawer.cs" />
      <Compile Include="Assets\Doozy\Engine\Orientation\OrientationDetector.cs" />
      <Compile Include="Assets\Doozy\Engine\Progress\Enums\ProgressorVariable.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Input\KeyToAction.cs" />
      <Compile Include="Assets\Doozy\Integrations\Playmaker\Actions\DoozyUI\Back.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
      <Compile Include="Assets\Doozy\Engine\Utils\GuidUtils.cs" />
      <Compile Include="Assets\Doozy\Engine\Utils\ColorModels\RGB.cs" />
      <Compile Include="Assets\Doozy\Engine\Themes\ThemesSettings.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Enums\TargetOrientation.cs" />
      <Compile Include="Assets\Doozy\Engine\Themes\Targets\SpriteTargetSpriteRenderer.cs" />
      <Compile Include="Assets\Doozy\Engine\Themes\Targets\FontTargetTextMeshPro.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIDrawer\UIDrawerArrow.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Animation\Enums\ButtonLoopAnimationType.cs" />
      <Compile Include="Assets\Doozy\Engine\Themes\Targets\ColorTargetRawImage.cs" />
@@ -237,6 +187,7 @@
      <Compile Include="Assets\Doozy\Engine\Nody\Models\Connection.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Animation\AnimationClasses.cs" />
      <Compile Include="Assets\Doozy\Integrations\Playmaker\Actions\DoozyUI\ApplicationQuit.cs" />
+     <Compile Include="Assets\Scripts\CarSelected.cs" />
      <Compile Include="Assets\Doozy\Examples\Scripts\E11PopupScriptThree.cs" />
      <Compile Include="Assets\Doozy\Engine\Themes\Targets\ThemeTarget.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Connections\Enums\UIConnectionTrigger.cs" />
@@ -249,44 +200,61 @@
      <Compile Include="Assets\Doozy\Engine\UI\UIPopup\UIPopupLink.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Animation\UIAnimationDatabase.cs" />
      <Compile Include="Assets\Doozy\Engine\Utils\ColorModels\HSL.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UICanvas\UICanvas.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Base\UIContainer.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIView\Internal\UIViewCategoryName.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Nodes\ActivateLoadedScenesNode.cs" />
      <Compile Include="Assets\Doozy\Engine\Scripts\Message.cs" />
      <Compile Include="Assets\Doozy\Engine\Scripts\GameEventMessage.cs" />
      <Compile Include="Assets\Doozy\Engine\Soundy\SoundyData.cs" />
+     <Compile Include="Assets\Scripts\DontDestroyOnLoad.cs" />
      <Compile Include="Assets\Doozy\Engine\Extensions\ColorExtensions.cs" />
      <Compile Include="Assets\Doozy\Engine\Shop\UIPacks\UIPackData.cs" />
      <Compile Include="Assets\Doozy\Engine\Utils\ColorModels\HSV.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
      <Compile Include="Assets\Doozy\Engine\Layouts\RadialLayout.cs" />
      <Compile Include="Assets\Doozy\Engine\Events\BoolEvent.cs" />
+     <Compile Include="Assets\Scripts\CopAI.cs" />
      <Compile Include="Assets\Doozy\Engine\Themes\Structs\FontAssetId.cs" />
+     <Compile Include="Assets\Scripts\CarDamageSystem.cs" />
      <Compile Include="Assets\Doozy\Engine\Nody\Models\Socket.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIButton\Enums\UIButtonBehaviorType.cs" />
      <Compile Include="Assets\Doozy\Engine\Nody\Nodes\EnterNode.cs" />
      <Compile Include="Assets\Doozy\Engine\Themes\Targets\ColorTargetSelectable.cs" />
      <Compile Include="Assets\Doozy\Engine\Touchy\GestureListener.cs" />
+     <Compile Include="Assets\Scripts\CarControl.cs" />
      <Compile Include="Assets\Doozy\Engine\Progress\Enums\TargetProgress.cs" />
      <Compile Include="Assets\Doozy\Engine\Themes\Targets\ColorTargetTextMeshPro.cs" />
      <Compile Include="Assets\Doozy\Engine\Attributes\MinMaxRangeAttribute.cs" />
      <Compile Include="Assets\Doozy\Integrations\Playmaker\Actions\Soundy\PauseAllSounds.cs" />
+     <Compile Include="Assets\Scripts\CarInfoManager.cs" />
      <Compile Include="Assets\Doozy\Engine\Soundy\ScriptableObjects\SoundDatabase.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
      <Compile Include="Assets\Doozy\Engine\Touchy\TouchySettings.cs" />
      <Compile Include="Assets\Doozy\Integrations\Playmaker\Actions\DoozyUI\ShowUIView.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UICanvas\UICanvasSettings.cs" />
      <Compile Include="Assets\Doozy\Engine\Nody\Scripts\NodySettings.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIButton\UIButtonSettings.cs" />
      <Compile Include="Assets\Doozy\Engine\SceneManagement\SceneUnloadedEvent.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
      <Compile Include="Assets\Doozy\Engine\Themes\Targets\SpriteTargetSelectable.cs" />
+     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Nodes\RandomNode.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIButton\UIButtonEvent.cs" />
      <Compile Include="Assets\Doozy\Engine\Utils\ColorModels\CMY.cs" />
      <Compile Include="Assets\Doozy\Engine\Themes\ThemesDatabase.cs" />
+     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIPopup\UIPopupBehavior.cs" />
      <Compile Include="Assets\Doozy\Engine\Touchy\TouchInfo.cs" />
      <Compile Include="Assets\Doozy\Engine\Themes\Targets\ColorTargetUnityEvent.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIPopup\UIPopup.cs" />
+     <Compile Include="Assets\Scripts\Sky.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
      <Compile Include="Assets\Doozy\Engine\Events\StringEvent.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIToggle\UIToggleBehaviorType.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIDrawer\Enums\UIDrawerContainerSize.cs" />
@@ -295,8 +263,14 @@
      <Compile Include="Assets\Doozy\Engine\UI\UIPopup\UIPopupContentData.cs" />
      <Compile Include="Assets\Doozy\Engine\Themes\Targets\ColorTargetImage.cs" />
      <Compile Include="Assets\Doozy\Engine\Themes\Structs\TextureId.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+     <Compile Include="Assets\Scripts\CopPool.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
      <Compile Include="Assets\Doozy\Engine\Touchy\Enums\SimpleSwipe.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Base\UIEffect.cs" />
+     <Compile Include="Assets\Scripts\ScriptableObjects\Car.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Base\UIComponentBase.cs" />
      <Compile Include="Assets\Doozy\Examples\Scripts\ExampleShowPopup.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Input\InputData.cs" />
@@ -304,44 +278,67 @@
      <Compile Include="Assets\Doozy\Engine\Nody\Models\Enums\NodeType.cs" />
      <Compile Include="Assets\Doozy\Engine\SceneManagement\ActiveSceneChangedEvent.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIView\UIViewListener.cs" />
+     <Compile Include="Assets\Scripts\MoneyBag.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Enums\UIEffectBehavior.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Input\BackButton.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Connections\WeightedConnection.cs" />
+     <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
+     <Compile Include="Assets\Scripts\Cashbags.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
      <Compile Include="Assets\Doozy\Engine\SceneManagement\Enums\GetSceneBy.cs" />
      <Compile Include="Assets\Doozy\Engine\Touchy\TouchHelper.cs" />
      <Compile Include="Assets\Doozy\Integrations\Playmaker\Actions\Soundy\PlaySound.cs" />
      <Compile Include="Assets\Doozy\Engine\Touchy\Enums\Swipe.cs" />
      <Compile Include="Assets\Doozy\Engine\Progress\ProgressTargets\ProgressTargetImage.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Nodes\PortalNode.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Animation\UIAnimation.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+     <Compile Include="Assets\Scripts\PlayerCamera.cs" />
      <Compile Include="Assets\Doozy\Examples\Scripts\E12PopupManagerScript.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIToggle\UIToggleMessage.cs" />
      <Compile Include="Assets\Doozy\Engine\Themes\Targets\ColorTargetParticleSystem.cs" />
      <Compile Include="Assets\Doozy\Engine\Soundy\ScriptableObjects\SoundGroupData.cs" />
+     <Compile Include="Assets\Scripts\LastPosition.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
      <Compile Include="Assets\Doozy\Engine\Utils\FileUtils.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Nodes\GameEventNode.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\Doozy\Engine\Utils\UILanguagePack.cs" />
      <Compile Include="Assets\Doozy\Engine\Utils\MenuUtils.cs" />
      <Compile Include="Assets\Doozy\Engine\Soundy\Enums\SoundSource.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIView\UIViewSettings.cs" />
      <Compile Include="Assets\Doozy\Integrations\Playmaker\Actions\DoozyUI\HideUIView.cs" />
+     <Compile Include="Assets\Scripts\NavmeshAgent.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIView\Enums\UIViewStartBehavior.cs" />
      <Compile Include="Assets\Doozy\Engine\Scripts\MessageExtensions.cs" />
      <Compile Include="Assets\Doozy\Engine\Nody\Controllers\GraphController.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIPopup\UIPopupQueueData.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Nodes\UIDrawerNode.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
      <Compile Include="Assets\Doozy\Engine\Utils\ColorUtils.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Animation\Enums\Direction.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Connections\UIConnection.cs" />
      <Compile Include="Assets\Doozy\Engine\Events\GameObjectEvent.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+     <Compile Include="Assets\Scripts\Repair.cs" />
      <Compile Include="Assets\Doozy\Engine\Events\ColorEvent.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIButton\UIButtonBehavior.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIDrawer\UIDrawerContainer.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Nodes\UINode.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
      <Compile Include="Assets\Doozy\Engine\Nody\Connections\PassthroughConnection.cs" />
      <Compile Include="Assets\Doozy\Engine\Themes\ThemeData.cs" />
      <Compile Include="Assets\Doozy\Engine\Progress\ProgressTargets\ProgressTargetAction.cs" />
      <Compile Include="Assets\Doozy\Engine\SceneManagement\SceneLoadBehavior.cs" />
+     <Compile Include="Assets\Scripts\CopGenerator.cs" />
      <Compile Include="Assets\Doozy\Engine\Soundy\ScriptableObjects\SoundyDatabase.cs" />
      <Compile Include="Assets\Doozy\Engine\Scripts\GameEventManager.cs" />
      <Compile Include="Assets\Doozy\Integrations\Playmaker\Actions\DoozyUI\ActivateLoadedScenes.cs" />
@@ -352,11 +349,14 @@
      <Compile Include="Assets\Doozy\Engine\Soundy\SoundyController.cs" />
      <Compile Include="Assets\Doozy\Engine\Enums\SystemGameEvent.cs" />
      <Compile Include="Assets\Doozy\Examples\Scripts\E11PopupScriptTwo.cs" />
+     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Base\Enums\NamesDatabaseType.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIView\Enums\UIViewBehaviorType.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Animation\Enums\AnimationType.cs" />
+     <Compile Include="Assets\RippleEffect\RipplePostProcessor.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Input\Enums\InputMode.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Animation\UIAnimationsDatabase.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Nodes\SoundNode.cs" />
      <Compile Include="Assets\Doozy\Engine\Progress\Enums\ResetValue.cs" />
      <Compile Include="Assets\Doozy\Engine\Enums\Language.cs" />
@@ -613,10 +613,10 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.6f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-        <HintPath>C:/Users/juanp/Desktop/3D_KartProject/3D_Topdown_racer/3D_Racing/3D_Racer/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+        <HintPath>C:/Users/juanp/Desktop/3D_CarChase/3D_PoliceChase/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="DDebug">
-        <HintPath>C:/Users/juanp/Desktop/3D_KartProject/3D_Topdown_racer/3D_Racing/3D_Racer/Assets/Doozy/Engine/Debug/DDebug.dll</HintPath>
+        <HintPath>C:/Users/juanp/Desktop/3D_CarChase/3D_PoliceChase/Assets/Doozy/Engine/Debug/DDebug.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -970,37 +970,37 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:/Users/juanp/Desktop/3D_KartProject/3D_Topdown_racer/3D_Racing/3D_Racer/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>C:/Users/juanp/Desktop/3D_CarChase/3D_PoliceChase/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>C:/Users/juanp/Desktop/3D_KartProject/3D_Topdown_racer/3D_Racing/3D_Racer/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:/Users/juanp/Desktop/3D_CarChase/3D_PoliceChase/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:/Users/juanp/Desktop/3D_KartProject/3D_Topdown_racer/3D_Racing/3D_Racer/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>C:/Users/juanp/Desktop/3D_CarChase/3D_PoliceChase/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>C:/Users/juanp/Desktop/3D_KartProject/3D_Topdown_racer/3D_Racing/3D_Racer/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>C:/Users/juanp/Desktop/3D_CarChase/3D_PoliceChase/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>C:/Users/juanp/Desktop/3D_KartProject/3D_Topdown_racer/3D_Racing/3D_Racer/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>C:/Users/juanp/Desktop/3D_CarChase/3D_PoliceChase/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-        <HintPath>C:/Users/juanp/Desktop/3D_KartProject/3D_Topdown_racer/3D_Racing/3D_Racer/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+        <HintPath>C:/Users/juanp/Desktop/3D_CarChase/3D_PoliceChase/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:/Users/juanp/Desktop/3D_KartProject/3D_Topdown_racer/3D_Racing/3D_Racer/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>C:/Users/juanp/Desktop/3D_CarChase/3D_PoliceChase/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-        <HintPath>C:/Users/juanp/Desktop/3D_KartProject/3D_Topdown_racer/3D_Racing/3D_Racer/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+        <HintPath>C:/Users/juanp/Desktop/3D_CarChase/3D_PoliceChase/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>C:/Users/juanp/Desktop/3D_KartProject/3D_Topdown_racer/3D_Racing/3D_Racer/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>C:/Users/juanp/Desktop/3D_CarChase/3D_PoliceChase/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>C:/Users/juanp/Desktop/3D_KartProject/3D_Topdown_racer/3D_Racing/3D_Racer/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>C:/Users/juanp/Desktop/3D_CarChase/3D_PoliceChase/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>C:/Users/juanp/Desktop/3D_KartProject/3D_Topdown_racer/3D_Racing/3D_Racer/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>C:/Users/juanp/Desktop/3D_CarChase/3D_PoliceChase/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

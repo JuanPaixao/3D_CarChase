@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2dc8c35f-5a3e-7f89-6517-86d2e6a07b5c}</ProjectGuid>
+    <ProjectGuid>{9faee3ca-9282-4b7e-44e9-f53a7855a6fc}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -36,10 +36,6 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Joystick Pack\Scripts\Editor\FloatingJoystickEditor.cs" />
-     <Compile Include="Assets\Joystick Pack\Scripts\Editor\DynamicJoystickEditor.cs" />
-     <Compile Include="Assets\Joystick Pack\Scripts\Editor\JoystickEditor.cs" />
-     <Compile Include="Assets\Joystick Pack\Scripts\Editor\VariableJoystickEditor.cs" />
      <Compile Include="Assets\Doozy\Editor\Themes\TextureTargetUnityEventEditor.cs" />
      <Compile Include="Assets\Doozy\Editor\Progress\ProgressTargetEditor.cs" />
      <Compile Include="Assets\Doozy\Editor\UI\UIPopup\UIPopupManagerEditor.cs" />
@@ -115,6 +111,7 @@
      <Compile Include="Assets\Doozy\Editor\Nody\NodeGUI\NodeGUIBase.cs" />
      <Compile Include="Assets\Doozy\Editor\Nody\Windows\NodyWindowDrawToolbar.cs" />
      <Compile Include="Assets\Doozy\Editor\Drawers\RangedFloatDrawer.cs" />
+     <Compile Include="Assets\Joystick Pack\Scripts\Editor\FloatingJoystickEditor.cs" />
      <Compile Include="Assets\Doozy\Editor\Nody\Windows\NodyWindowMethodsForNodes.cs" />
      <Compile Include="Assets\Doozy\Editor\Settings\DoozyWindowSettings.cs" />
      <Compile Include="Assets\Doozy\Editor\UI\Animation\FadeDrawer.cs" />
@@ -178,6 +175,7 @@
      <Compile Include="Assets\Doozy\Editor\Enums\ToggleState.cs" />
      <Compile Include="Assets\Doozy\Editor\Internal\DProperty.cs" />
      <Compile Include="Assets\Doozy\Editor\Themes\ColorTargetTextMeshProEditor.cs" />
+     <Compile Include="Assets\Joystick Pack\Scripts\Editor\DynamicJoystickEditor.cs" />
      <Compile Include="Assets\Doozy\Editor\UI\Nodes\Editors\ActivateLoadedScenesNodeEditor.cs" />
      <Compile Include="Assets\Doozy\Editor\GUI\Scripts\DGUI\Utils.cs" />
      <Compile Include="Assets\Doozy\Editor\Nody\Events\GraphEvent.cs" />
@@ -204,6 +202,7 @@
      <Compile Include="Assets\Doozy\Editor\Windows\DoozyWindowDrawViewViews.cs" />
      <Compile Include="Assets\Doozy\Editor\Windows\DoozyWindowDrawViewTouchy.cs" />
      <Compile Include="Assets\Doozy\Editor\GUI\Scripts\DGUI\SerializedProperties.cs" />
+     <Compile Include="Assets\Joystick Pack\Scripts\Editor\JoystickEditor.cs" />
      <Compile Include="Assets\Doozy\Editor\GUI\Scripts\Styles.cs" />
      <Compile Include="Assets\Doozy\Editor\Nody\Windows\NodyWindowUpdateCursorIcon.cs" />
      <Compile Include="Assets\Doozy\Editor\UI\Nodes\GUIs\UINodeGUI.cs" />
@@ -232,6 +231,7 @@
      <Compile Include="Assets\Doozy\Editor\Nody\Editors\SwitchBackNodeEditor.cs" />
      <Compile Include="Assets\Doozy\Editor\Nody\Windows\NodyWindow.cs" />
      <Compile Include="Assets\Doozy\Editor\Enums\CornerType.cs" />
+     <Compile Include="Assets\Joystick Pack\Scripts\Editor\VariableJoystickEditor.cs" />
      <Compile Include="Assets\Doozy\Editor\Themes\FontTargetTextMeshProEditor.cs" />
      <Compile Include="Assets\Doozy\Editor\Utils\SpriteDrawUtils.cs" />
      <Compile Include="Assets\Doozy\Editor\Themes\SpriteTargetSelectableEditor.cs" />
@@ -505,17 +505,17 @@
     <Reference Include="UnityEditor.UWP.Extensions">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.6f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="DOTweenEditor">
-        <HintPath>C:/Users/juanp/Desktop/3D_KartProject/3D_Topdown_racer/3D_Racing/3D_Racer/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
-    </Reference>
     <Reference Include="DOTween">
-        <HintPath>C:/Users/juanp/Desktop/3D_KartProject/3D_Topdown_racer/3D_Racing/3D_Racer/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+        <HintPath>C:/Users/juanp/Desktop/3D_CarChase/3D_PoliceChase/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenEditor">
+        <HintPath>C:/Users/juanp/Desktop/3D_CarChase/3D_PoliceChase/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
     </Reference>
     <Reference Include="DDebug">
-        <HintPath>C:/Users/juanp/Desktop/3D_KartProject/3D_Topdown_racer/3D_Racing/3D_Racer/Assets/Doozy/Engine/Debug/DDebug.dll</HintPath>
+        <HintPath>C:/Users/juanp/Desktop/3D_CarChase/3D_PoliceChase/Assets/Doozy/Engine/Debug/DDebug.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>C:/Users/juanp/Desktop/3D_KartProject/3D_Topdown_racer/3D_Racing/3D_Racer/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+        <HintPath>C:/Users/juanp/Desktop/3D_CarChase/3D_PoliceChase/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -869,48 +869,48 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-        <HintPath>C:/Users/juanp/Desktop/3D_KartProject/3D_Topdown_racer/3D_Racing/3D_Racer/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+        <HintPath>C:/Users/juanp/Desktop/3D_CarChase/3D_PoliceChase/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-        <HintPath>C:/Users/juanp/Desktop/3D_KartProject/3D_Topdown_racer/3D_Racing/3D_Racer/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+        <HintPath>C:/Users/juanp/Desktop/3D_CarChase/3D_PoliceChase/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:/Users/juanp/Desktop/3D_KartProject/3D_Topdown_racer/3D_Racing/3D_Racer/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>C:/Users/juanp/Desktop/3D_CarChase/3D_PoliceChase/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>C:/Users/juanp/Desktop/3D_KartProject/3D_Topdown_racer/3D_Racing/3D_Racer/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:/Users/juanp/Desktop/3D_CarChase/3D_PoliceChase/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:/Users/juanp/Desktop/3D_KartProject/3D_Topdown_racer/3D_Racing/3D_Racer/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>C:/Users/juanp/Desktop/3D_CarChase/3D_PoliceChase/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>C:/Users/juanp/Desktop/3D_KartProject/3D_Topdown_racer/3D_Racing/3D_Racer/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>C:/Users/juanp/Desktop/3D_CarChase/3D_PoliceChase/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>C:/Users/juanp/Desktop/3D_KartProject/3D_Topdown_racer/3D_Racing/3D_Racer/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>C:/Users/juanp/Desktop/3D_CarChase/3D_PoliceChase/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-        <HintPath>C:/Users/juanp/Desktop/3D_KartProject/3D_Topdown_racer/3D_Racing/3D_Racer/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+        <HintPath>C:/Users/juanp/Desktop/3D_CarChase/3D_PoliceChase/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:/Users/juanp/Desktop/3D_KartProject/3D_Topdown_racer/3D_Racing/3D_Racer/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>C:/Users/juanp/Desktop/3D_CarChase/3D_PoliceChase/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-        <HintPath>C:/Users/juanp/Desktop/3D_KartProject/3D_Topdown_racer/3D_Racing/3D_Racer/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+        <HintPath>C:/Users/juanp/Desktop/3D_CarChase/3D_PoliceChase/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>C:/Users/juanp/Desktop/3D_KartProject/3D_Topdown_racer/3D_Racing/3D_Racer/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>C:/Users/juanp/Desktop/3D_CarChase/3D_PoliceChase/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>C:/Users/juanp/Desktop/3D_KartProject/3D_Topdown_racer/3D_Racing/3D_Racer/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>C:/Users/juanp/Desktop/3D_CarChase/3D_PoliceChase/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>C:/Users/juanp/Desktop/3D_KartProject/3D_Topdown_racer/3D_Racing/3D_Racer/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>C:/Users/juanp/Desktop/3D_CarChase/3D_PoliceChase/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{176cbe38-4c50-522d-cd00-7a7c57b0db64}</Project>
+      <Project>{974483d9-3a5a-737d-463c-28474741438c}</Project>
       <Name>Assembly-CSharp</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
